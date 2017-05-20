@@ -248,8 +248,34 @@ a:visited, a:link, a:active {
 
 }
 
-@media screen (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
+	.header-content {
+		width: 660px;
+	}
+
+	.content-section {
+		width: 660px;
+		overflow: auto;
+		margin-bottom: 30px;
+	}
+
+	.main-content {
+		position: relative;
+		width: 620px;
+	}
+
+	.sidebar {
+		width: 620px;
+		text-align: left;
+	}
+
+
+	.footer-content {
+		width: 660px;
+		margin: 0 auto;
+		padding: 30px;
+	}
 }
 
 @media screen (max-width: 640px) {
