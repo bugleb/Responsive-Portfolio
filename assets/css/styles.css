@@ -221,4 +221,39 @@ a:visited, a:link, a:active {
   opacity: 0.3;
 }
 
+@media screen and (max-width: 980px) {
+
+	.header-content {
+		width: 760px;
+	}
+
+	.content-section {
+		width: 760px;
+	}
+
+	.main-content {
+		width: 410px;
+	}
+
+	.left-images {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.right-images {
+		margin: 0 auto;
+		position: relative;
+		right: 0px;
+	}
+
+}
+
+@media screen (max-width: 768px) {
+
+}
+
+@media screen (max-width: 640px) {
+
+}
+
 
