@@ -281,6 +281,14 @@ a:visited, a:link, a:active {
 		margin: 0 auto;
 		padding: 30px;
 	}
+
+	.left-images {
+		float: left;
+	}
+
+	.right-images {
+		float: right;
+	}
 }
 
 @media screen (max-width: 640px) {
