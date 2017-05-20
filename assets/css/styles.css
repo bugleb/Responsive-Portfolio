@@ -246,6 +246,12 @@ a:visited, a:link, a:active {
 		right: 0px;
 	}
 
+	.footer-content {
+		width: 760px;
+		margin: 0 auto;
+		padding: 30px;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -269,7 +275,6 @@ a:visited, a:link, a:active {
 		width: 620px;
 		text-align: left;
 	}
-
 
 	.footer-content {
 		width: 660px;
