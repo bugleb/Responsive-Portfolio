@@ -291,8 +291,60 @@ a:visited, a:link, a:active {
 	}
 }
 
-@media screen (max-width: 640px) {
+@media screen and (max-width: 640px) {
+	.header {
+		position: static;
+		height: 100px;
+	}
 
+	.header-content {
+		width: 100%;
+		height: 100%;
+		align-items: center;
+	}
+
+	.name {
+		width: 100%;
+		top: 0px;
+	}
+
+	.navigation-links {
+		width: 100%;
+		position: relative;
+		top: 45px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.content-section {
+		width: 560px;
+		overflow: auto;
+		margin-bottom: 30px;
+	}
+
+	.main-content {
+		position: relative;
+		width: 520px;
+	}
+
+	.footer-content {
+		width: 560px;
+		margin: 0 auto;
+		padding: 30px;
+	}
+
+	.sidebar {
+		width: 520px;
+		text-align: left;
+	}
+
+	.left-images {
+		float: none;
+	}
+
+	.right-images {
+		float: none;
+	}
 }
 
 
